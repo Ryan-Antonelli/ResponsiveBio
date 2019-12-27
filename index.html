@@ -5,54 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap 101 Template</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-danger pb-2">
-      <a class="navbar-brand bg-info p-2"href="#">Ryan Antonelli</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="file:///C:/Users/15102/Desktop/Bootcampspot/bootstrapdemo.html#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/Ryan-Antonelli/RyanAntonelliGitHubProfile">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <nav class="navbar navbar-expand-md navbar-light pb-2 col-sm-10">
+            <a class="navbar-brand bg-info p-2"href="#">Ryan Antonelli</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="file:///C:/Users/15102/Desktop/Bootcampspot/bootstrapdemo.html#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/Ryan-Antonelli/RyanAntonelliGitHubProfile">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="index.html">Bio</a>
+                    <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="contact.html">Contact</a>
+                  </div>
+                </li>
+              </ul>
+              
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
-
-
-    <div class="container mt-2" >
-        <section class="row">
-            <section class="col-lg-12 bg-success">hello?</section>
-        </section>
-        <section class="row">
-            <section class="col-md-6 col-sm-12 bg-info">Hello!</section>
-            <section class="col-md-6 col-sm-12 bg-danger">Hello!</section>
-        </section>
+      </nav>
+      <div class="col-sm-1"></div>
     </div>
+    </div> 
+
+    <div class="container-fluid mx-auto" > 
+      
+      <div class="row">
+        
+        <div class="col-sm-12 bg-secondary">
+          
+          <section class="row mt-3">
+              <section class="col-sm-2"></section>
+              <section class="col-sm-8 p-2 border-bottom border-secondary bioPage ">About Me</section>
+              <section class="col-sm-2"></section>
+          </section>    
+          
+          <div class="row mb-3">  
+              <section class="col-sm-2"></section>
+              <section class="col-sm-8 py-3 bioPage">
+                <img class="float-left pr-3" src="./assets/images/kornel-mahl-mV4GwTDD8Tw-unsplash_1_320x400.jpg" >
+                
+                <p class="">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae soluta, doloremque ea laborum sapiente id accusamus ducimus. Provident quo quidem quibusdam labore sunt? Quae et ea debitis, suscipit unde voluptatibus.
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum suscipit ea quibusdam minima molestias incidunt. Dolor veritatis ad praesentium voluptate necessitatibus tenetur consequuntur laborum dignissimos, beatae ratione rerum distinctio. Architecto?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis in harum maiores iste repellat impedit, aperiam tempora eius fugit ipsa possimus animi ad! Accusamus, cumque architecto quas ducimus ad nulla.
+                </p>
+              
+              </section>
+              <section class="col-sm-2"></section>
+          </div>
+        </div>
+      </div>    
+        
+    </div>
+
     
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
