@@ -1,64 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bio Portfolio Page</title>
-</head>
+    <title>Responsive Portfolio Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+  
+  </head>
 <body>
     <div class="row">
-        <div class="col-sm-2"></div>
-        <nav class="navbar navbar-expand-md navbar-light pb-2 col-sm-8">
-              <a class="navbar-brand bg-info p-2"href="#">Ryan Antonelli</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+      <div class="col-sm-2"></div>
+        
+        <nav class="navbar navbar-expand-md navbar-light p-0 my-2 " id="navbar">
+          
+          <a class="navbar-brand bg-info p-2"href="#" id="nameplate">Ryan Antonelli</a>
+         
+        
+          
+          <ul class="nav navbar-nav navbar-right"> 
+              
+              <li>
+                <a class="nav-link border-right" href="./index.html">About</a>
+              </li>
+              
+              <li>
+                <a class="nav-link border-right" href="./portfolio.html">Portfolio</a>
+              </li>
             
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="file:///C:/Users/15102/Desktop/Bootcampspot/bootstrapdemo.html#">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/Ryan-Antonelli/RyanAntonelliGitHubProfile">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="index.html">Bio</a>
-                      <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="contact.html">Contact</a>
-                    </div>
-                  </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-              </div>
+            
+              <li>
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+          
+          </ul>
+          
         </nav>
-        <div class="col-sm-2"></div>
-      </div>
-      </div> 
-    <div class="container-fluid bg-success">
-        <div>
-            <div class="row">
-                <div class="col-xs-6">
+        
+      <div class="col-sm-2"></div>
+      
+    </div>
+      
+    
+    <div class="container-fluid mx-auto"  > 
+      
+      <div class="row">
+        
+        <div class="col-sm-12 bg-secondary" id="background">
+          
+          <section class="row mt-3">
+              <section class="col-sm-2"></section>
+              <section class="col-sm-8 p-2 border-bottom border-secondary bioPage " id="contentHeader">Portfolio</section>
+              <section class="col-sm-2"></section>
+          </section>    
+          
+          <div class="row mb-3">  
+              <section class="col-sm-2"></section>
+              <section class="col-sm-8 py-3 bioPage" id="indexContent">
+                <div class="row mx-auto">
+                  <section class="col-6-xs mx-auto py-2">
                     
-                    <img src="#" alt="#">
-                    <img src="#" alt="#">
+                    <figure>
+                      <img src="./assets/images/toshi-K5pLGYJMHKk-unsplash_320x400.jpg" alt="Dog Pic" class="py-4">
+                      <figcaption class="bg-info caption">
+                        <h2>Project One</h2>
+                      </figcaption>
+                    </figure>
                     
-                <div class="col-xs-6">    
+                    <br>
                     
-                    <img src="#" alt="#">
-                    <img src="#" alt="#">
+                    <figure>
+                      <img src="./assets/images/toshi-K5pLGYJMHKk-unsplash_320x400.jpg" alt="Dog Pic" class="py-4">
+                      <figcaption class="bg-info caption">
+                        <h2>Project Three</h2>
+                      </figcaption>
+                    </figure>
 
+                  </section>
+                  
+                  <section class="col-6-xs mx-auto py-2">
+                     
+                    <figure>
+                      <img src="./assets/images/toshi-K5pLGYJMHKk-unsplash_320x400.jpg" alt="Dog Pic" class="py-4">
+                      <figcaption class="bg-info caption">
+                        <h2>Project Two</h2>
+                      </figcaption>
+                    </figure>
+
+                    <br>
+
+                    <figure>
+                      <img src="./assets/images/toshi-K5pLGYJMHKk-unsplash_320x400.jpg" alt="Dog Pic" class="py-4">
+                      <figcaption class="bg-info caption">
+                        <h2>Project Four</h2>
+                      </figcaption>
+                    </figure>
+                    
+                  </section>
+                
                 </div>
-            </div>
+              
+              </section>
+              <section class="col-sm-2"></section>
+          </div>
         </div>
-    </div>  
-</body>
+      </div>    
+        
+    </div>
+
+    <footer class="page-footer font-small blue pt-4">
+      
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="https://github.com/Ryan-Antonelli?tab=repositories/"> Ryan Antonelli</a>
+      </div>
+
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
+  </body>
 </html>
