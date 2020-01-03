@@ -1,5 +1,18 @@
 .bioPage {
-    background-color: bisque;
+    background-color: whitesmoke;
+}
+
+.caption {
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+    position: relative;
+    bottom: 120px
+    
+}
+
+.content {
+    background-color: whitesmoke;
 }
 
 #contentHeader {
@@ -15,7 +28,7 @@
 }
 
 #contactContent {
-    
+
 }
 
 #navbar {
@@ -29,3 +42,4 @@
 #background {
 
 }
+
