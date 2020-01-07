@@ -1,13 +1,11 @@
-.bioPage {
-    background-color: whitesmoke;
-}
 
 .caption {
     text-align: center;
     color: whitesmoke;
     width: 100%;
     position: relative;
-    bottom: 120px
+    bottom: 120px;
+    background-color: cadetblue;
     
 }
 
@@ -16,6 +14,8 @@
 }
 
 #contentHeader {
+    background-color: whitesmoke;
+    color: cadetblue;
 
 }
 
@@ -34,12 +34,32 @@
 #navbar {
 
 }
+@media only screen and (max-width: 600px) {
+    #nameplate {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+}
+
 
 #nameplate {
+    background-color: cadetblue;
+    color: whitesmoke;
 
 }
 
 #background {
 
+}
+
+button {
+    background-color: cadetblue;
+}
+
+.page-footer {
+    border-top: cadetblue 5px solid;
+    background-color: rgb(75, 75, 75)
 }
 
