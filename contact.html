@@ -8,41 +8,45 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <div class="container-fluid"> 
     <div class="row">
         <div class="col-sm-2"></div>
           
           <nav class="navbar navbar-expand-md navbar-light p-0 my-2 " id="navbar">
             
-            <a class="navbar-brand p-2 text-light" href="https://github.com/Ryan-Antonelli" id="nameplate">Ryan Antonelli</a>
-           
+            <a class="navbar-brand p-2"href="https://github.com/Ryan-Antonelli" id="nameplate">Ryan Antonelli</a>
+          
           
             
-            <ul class="nav navbar-nav navbar-right"> 
+            <div class="ulcontainer">
+              <ul class="nav navbar-nav"> 
+                  
+                  <li>
+                    <a class="nav-link border-right" href="./index.html">About</a>
+                  </li>
+                  
+                  <li>
+                    <a class="nav-link border-right" href="./portfolio.html">Portfolio</a>
+                  </li>
                 
-                <li>
-                  <a class="nav-link border-right" href="./index.html">About</a>
-                </li>
                 
-                <li>
-                  <a class="nav-link border-right" href="./portfolio.html">Portfolio</a>
-                </li>
+                  <li>
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                  </li>
               
-              
-                <li>
-                  <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-            
-            </ul>
+              </ul>
+            </div>
             
           </nav>
           
-        <div class="col-sm-2"></div>
+      <div class="col-sm-2"></div>
         
-      </div>
+    </div>
+  </div>
 
 
         <div class="row">
-          <div class="col-12-xs bg-secondary container-fluid">
+          <div class="col-12-sm bg-secondary container-fluid">
             <div class="row mt-3">
               
               <section class="col-sm-2"></section>
@@ -53,47 +57,50 @@
               <section class="col-sm-2"></section>
             
             </div>
-            
-            <div class="row">
-              <section class="col-sm-2"></section>
-              
-              <section class="col-sm-8 content py-2 mb-3">
-                <form action="" class="">
-                  
-                  <label for="name" class="pt-3">Name</label>
-                  <br>
-                  <input type="text" id="name" name="name">
-                  <br>
-                  
-                  <label for="email" class="pt-3">Email</label>
-                  <br>
-                  <input type="email" id="email" name="email">
-                  <br>
-                  
-                  <label for="message" class="pt-3">Message</label>
-                  <br>
-                  <textarea name="message" id="message" cols="40" rows="10"></textarea>
-
-                  <br>
-
-                  <button class="p-1 my-2 text-light " type="submit">Submit</button>
+            <div class="container-flex">
+              <div class="row">
+                <section class="col-sm-2"></section>
                 
-                </form>
-              </section>
+                <section class="col-sm-8 py-2 mb-3" id="contactContent">
+                  <form action="" class="">
+                    
+                    <label for="name" class="pt-3">Name</label>
+                    <br>
+                    <input type="text" id="name" name="name">
+                    <br>
+                    
+                    <label for="email" class="pt-3">Email</label>
+                    <br>
+                    <input type="email" id="email" name="email">
+                    <br>
+                    
+                    <label for="message" class="pt-3">Message</label>
+                    <br>
+                    <textarea name="message" id="message" cols="40" rows="10"></textarea>
+
+                    <br>
+
+                    <button class="p-1 my-2 text-light " type="submit">Submit</button>
+                  
+                  </form>
+                </section>
+                
+                <section class="col-sm-2"></section>
               
-              <section class="col-sm-2"></section>
-            
-            </div>
+              </div>
+            </div>  
           </div>
         </div>
 
-        <footer class="page-footer font-small blue pt-2">
+        <div class="container-fluid">  
+          <footer class="page-footer font-small blue pt-2 mx-auto">
+            
+            <div class="footer-copyright text-center py-3 text-light">© 2020 Copyright:
+              <a href="https://github.com/Ryan-Antonelli?tab=repositories/"> Ryan Antonelli</a>
+            </div>
       
-          <div class="footer-copyright text-center py-3 text-light">© 2020 Copyright:
-            <a href="https://github.com/Ryan-Antonelli?tab=repositories/"> Ryan Antonelli</a>
-          </div>
-    
-        </footer>
+          </footer>
+        </div>
  
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="

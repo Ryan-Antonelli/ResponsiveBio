@@ -19,22 +19,39 @@
 
 }
 
-#PortfolioContent {
 
-}
 
 #indexContent {
 
 }
 
+@media only screen and (max-width: 768px) {
+    #image {
+        float: none !important;
+    }
+}
+
 #contactContent {
+    width: 66.7%;
+    background-color: whitesmoke;
 
 }
 
 #navbar {
+    width: 66.7%;
 
 }
-@media only screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 768px) {
+    #navbar {
+        margin: auto;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
     #nameplate {
         display: block;
         width: 100%;
@@ -47,6 +64,9 @@
 #nameplate {
     background-color: cadetblue;
     color: whitesmoke;
+    font-size: 30px;
+    margin-left: 0;
+    border-radius: 3px;
 
 }
 
@@ -62,4 +82,25 @@ button {
     border-top: cadetblue 5px solid;
     background-color: rgb(75, 75, 75)
 }
+
+.ulcontainer {
+    
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+    .ulcontainer {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-link {
+        border: none !important;
+    }
+}
+
 
