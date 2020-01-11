@@ -79,7 +79,7 @@ button {
 }
 
 .page-footer {
-    border-top: cadetblue 5px solid;
+ 
     background-color: rgb(75, 75, 75)
 }
 
@@ -102,5 +102,10 @@ button {
         border: none !important;
     }
 }
+ .grayBox {
+     background-color:rgb(75, 75, 75);
+     border-top: cadetblue 5px solid;
+ }
 
+ 
 
